@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pedestrial</title>
+     <link rel="shortcut icon" href="images\pestana.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-16">
+    <meta name="description" content="Aviación">
+    <meta name="keywords" content="HTML, CSS, PHP">
+    <meta name="author" content="Javier Masó">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Commercial Aircraft,A320neo,Searchable,Newsroom">
+  <link rel="STYLESHEET" href="estilos.css">
+        
+           <img src="images/logoMGA1.3.png" alt="Logo página" height="125” width="300”>
+        
+</head>
+<body class="cab">
+ <br><br><br>
+  <div class="centrado">
+              
+        <a href="index.html"><i><img class="bar" src="images/home.png"></i></a> 
+        
+        <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn" class="bar">El A320</button>
+        <div class="dropdown-content">
+        <a href="histoairbus.html">Historia A320N</a>
+        <a href="caracteristicas.html">Características</a>
+        <a href="neo.html"> New Engine Option</a>
+      </div>
+      </div>
+
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">La Cabina</button>
+      <div class="dropdown-content">
+        <a href="cabina.html">El cockpit</a>
+        <a href="pasajeros.html">Cabina de pasajeros</a>
+      </div>
+      </div>
+      
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">Más</button>
+      <div class="dropdown-content">
+      <a href="lasfotos.html">Imágenes</a>
+      <a href="descargas.html">Descargas</a>
+      <a href="document.html">Documentación A320</a>
+        </div>
+        </div>
+        <button class="btn botred"><a href="contacta.php">Contacta con nosotros</a></button>
+      </div>
+  <div class="maincab">
+<br><br>
+<h2 class="cab">PANEL PEDESTRIAL</h2>
+
+<div id="myBtnContainer">
+  <button class="btncab active" onclick="filterSelection('all')"> Mostrar todo</button>
+  <button class="btncab" onclick="filterSelection('ecam')"> Control de ECAM y motores</button>
+  <button class="btncab" onclick="filterSelection('rdn')"> Radionavegación</button>
+  <button class="btncab" onclick="filterSelection('oth')"> Otros sistemas</button>
+  <button class="btncab"><a href="cabina.html" style="color:black;">Volver</a></button>
+</div>
+
+<!-- Galería portfolio -->
+
+<div class="cabrow">
+  <div class="cabcolumn ecam">
+    <div class="contentcab">
+      <img src="aimages\pedestrial\motorecam\motor1.png" alt="btn ecam" style="width:100%">
+      <h4>Control del ECAM</h4>
+      <p>Desde aquí los pilotos seleccionan que opciones del estado del avión quieren visualizar, lo cual es muy importante para poder tomar las decisiones adecuadas, en cuanto a la configuración del avión además de poder mantener la seguridad del avión en el aire.</p>
+    </div>
+  </div>
+  <div class="cabcolumn ecam">
+    <div class="contentcab">
+    <img src="aimages\pedestrial\motorecam\motor2.png" alt="thrtle" style="width:100%">
+      <h4>Throttle</h4>
+      <p>Con estos mandos, aparentemente tan simples, el piloto puede controlar de forma manual la potencia del avión o si está el piloto automático, el piloto puede configurar en que fase del vuelo está, si hay alguna emergencia u otras situaciones, para que el piloto automático tome las decisiones adecuadas.</p>
+    </div>
+  </div>
+  <div class="cabcolumn ecam">
+    <div class="contentcab">
+    <img src="aimages\pedestrial\motorecam\motor3.png" alt="PElect" style="width:100%">
+      <h4>Arrancado y control de sustentación</h4>
+      <p>Desde aquí se configura el modo de motor en función de la situación en la que se encuentre el avión por ejemplo si se encuentra en una emergencia, si se arranca o si, vuelo normal...este switch está junto a los interruptores que ponen los motores en marcha. Además aquí se ven los indicadores en caso de que alguno de los motores falle. </p>
+    </div>
+  </div>
+  
+  <div class="cabcolumn rdn">
+    <div class="contentcab">
+      <img src="aimages\pedestrial\radionav\fmc.png" alt="fmc" style="width:100%">
+      <h4>FMC</h4>
+      <p>Esto es el ordenador de abordo del avión, desde aquí se inserta la ruta que el avión va a seguir, calcula la configuración adecuada del avión en funcion de su carga de combustible, pasajeros y mercancía pero además tiene en cuenta el tiempo a la hora de realizar estos cálculos</p>
+    </div>
+  </div>
+  <div class="cabcolumn rdn">
+    <div class="contentcab">
+    <img src="aimages\pedestrial\radionav\radio.png" alt="radio" style="width:100%">
+      <h4>Sistema de radio</h4>
+      <p>No sólo sirve para comunicarse con los ATC, también es capaz de comunicarse con aeropuertos y usar otras antenas para posicionarse en el espacio con independencia del GPS, también ayuda a acercarse de forma segura a la pista del aeropuerto en caso de baja visibilidad.</p>
+    </div>
+  </div>
+  <div class="cabcolumn rdn">
+    <div class="contentcab">
+    <img src="aimages\pedestrial\radionav\transpon.png" alt="transpon" style="width:100%">
+      <h4>Traspondedor</h4>
+      <p>Es otro elemento con tecnología de radio que se comunica con los radares de control aereo, los cuales proporcionan un código que el piloto debe introducir, y este será único en el mundo, de forma que el vuelo pueda ser seguido con datos como su rumbo, altitud, plan de vuelo...</p>
+    </div>
+  </div>
+
+  <div class="cabcolumn oth">
+    <div class="contentcab">
+      <img src="aimages\pedestrial\oth\doppler.png" alt="Car" style="width:100%">
+      <h4>Doppler</h4>
+      <p>Con este sistema se controla el radar meteorológico, desde aquí se modifica el angulo de actuación, la distancia a la que quiero obtener la información y evidentemente su activación o desactivación en función de si se quiere ver otro tipo de información en el ND (Navigation Display)</p>
+    </div>
+  </div>
+  <div class="cabcolumn oth">
+    <div class="contentcab">
+    <img src="aimages\pedestrial\oth\flaps.png" alt="Car" style="width:100%">
+      <h4>Flaps y Spoilers</h4>
+      <p>Desde estos activadores, se controlan los flaps para modificar la aerodinámica del avión en función de su fase de vuelo, los aerofrenos que permiten variar la velocidad para mejorar la estabilidad del avión, y se puede ver el switch desde el que se controla la compensación de dirección del avión para tener en cuenta los vientos laterales</p>
+    </div>
+  </div>
+  <div class="cabcolumn oth">
+    <div class="contentcab">
+    <img src="aimages\pedestrial\oth\oth3.png" alt="Car" style="width:100%">
+      <h4>Park Break y tren de aterrizaje</h4>
+      <p>Desde aquí se acciona el freno de estacionamiento del avión que estará activado en todo momento que el avión esté en tierra y no se tenga que desplazar, puesto que la fuerza del motor en ralentí también puede moverlo. Además se puede ver un interruptor para forzar el despliegue del tren de aterrizaje en caso de que no salga de forma normal.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("cabcolumn");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "cabshow");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "cabshow");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btncab");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+<br><br><br><br>
+<div class="footer">
+  <ul>
+    <small><a href="legal.html">Aviso legal</a></li></small>
+    <small><a href="privacidad.html">Privacidad</a></li></small>
+    <small><a href="contacta.html">Contactar</a></li></small>
+  </ul>
+</footer> 
+</div>
+</body>
+</html>

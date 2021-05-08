@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Panel Superior</title>
+    <link rel="shortcut icon" href="images\pestana.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-16">
+    <meta name="description" content="Aviación">
+    <meta name="author" content="Javier Masó">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Commercial Aircraft,A320neo,Searchable,Newsroom">
+  <link rel="STYLESHEET" href="estilos.css">
+        
+           <img src="images/logoMGA1.3.png" alt="Logo página" height="125” width="300”>
+        
+</head>
+<body class="cab">
+ <br><br><br>
+  <div class="centrado">
+              
+        <a href="index.html"><i><img class="bar" src="images/home.png"></i></a> 
+        
+        <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn" class="bar">El A320</button>
+        <div class="dropdown-content">
+        <a href="histoairbus.html">Historia A320N</a>
+        <a href="caracteristicas.html">Características</a>
+        <a href="neo.html"> New Engine Option</a>
+      </div>
+      </div>
+
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">La Cabina</button>
+      <div class="dropdown-content">
+        <a href="cabina.html">El cockpit</a>
+        <a href="pasajeros.html">Cabina de pasajeros</a>
+      </div>
+      </div>
+      
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">Más</button>
+      <div class="dropdown-content">
+      <a href="lasfotos.html">Imágenes</a>
+      <a href="descargas.html">Descargas</a>
+      <a href="document.html">Documentación A320</a>
+        </div>
+        </div>
+        <button class="btn botred"><a href="contacta.php">Contacta con nosotros</a></button>
+      </div>
+  <div class="maincab">
+<br><br>
+<h2 class="cab">PANEL SUPERIOR</h2>
+
+<div id="myBtnContainer">
+  <button class="btncab active" onclick="filterSelection('all')"> Mostrar todo</button>
+  <button class="btncab" onclick="filterSelection('elect')"> Panel eléctrico</button> 
+  <button class="btncab" onclick="filterSelection('engine')"> Motores</button>
+  <button class="btncab" onclick="filterSelection('oth')"> Otros</button>
+  <button class="btncab"><a href="cabina.html" style="color:black;">Volver</a></button>
+</div>
+
+<!-- Galería portfolio -->
+
+<div class="cabrow">
+  <div class="cabcolumn elect">
+    <div class="contentcab">
+      <img src="aimages\superior\electricidad\elect1.png" alt="PElect" style="width:100%">
+      <h4>Panel de emergencias eléctricas</h4>
+      <p>Desde este panel se podrá cortar el suministro eléctrico en caso de que haya algín cortocircuito para evitar posibles incendios o averías más graves.</p>
+    </div>
+  </div>
+  <div class="cabcolumn elect">
+    <div class="contentcab">
+    <img src="aimages\superior\electricidad\elect2.png" alt="PElect" style="width:100%">
+      <h4>Bus principal de batería</h4>
+      <p>Desde este modulo se puede conectar al avión a una fuente de corriente externa y activar o desactivar las baterías del propio avión.</p>
+    </div>
+  </div>
+  <div class="cabcolumn elect">
+    <div class="contentcab">
+    <img src="aimages\superior\electricidad\elect3.png" alt="PElect" style="width:100%">
+      <h4>Luces de navegación y APU</h4>
+      <p>Desde aquí activaremos las luces de navegación, aterrizaje y envergadura, además de las luces interiores del avión. Además desde aquí se activa el sistema auxiliar de potencia.</p>
+    </div>
+  </div>
+  
+  <div class="cabcolumn engine">
+    <div class="contentcab">
+      <img src="aimages\superior\motores\motor1.png" alt="emergencia" style="width:100%">
+      <h4>System Fire</h4>
+      <p>En caso de que por razones de emergencia los motores sufran un incendio, desde aquí se pueden parar de emergencia y rociar un agente ignífugo sobre ellos.</p>
+    </div>
+  </div>
+  <div class="cabcolumn engine">
+    <div class="contentcab">
+    <img src="aimages\superior\motores\motor2.png" alt="bombas" style="width:100%">
+      <h4>Panel de aire acondicionado</h4>
+      <p>Desde aquí se puede cortar la mezcla de aire con el combustible o incluso se puede cortar de forma automática en caso de emergencia. Además, desde aquí también se controla la temperatura interior del cockpit y de la cabina de pasajeros.</p>
+    </div>
+  </div>
+  <div class="cabcolumn engine">
+    <div class="contentcab">
+    <img src="aimages\superior\motores\motor3.png" alt="crossfuel" style="width:100%">
+      <h4>Packs de motor</h4>
+      <p>Desde aquí el piloto podrá forzar la mezcla de aire y el combustible ante una necesidad del motor, además de controlar la temperatura interior del avión, la cual se puede personalizar por zonas. (Cockpit, Delante y detrás) </p>
+    </div>
+  </div>
+
+  <div class="cabcolumn oth">
+    <div class="contentcab">
+      <img src="aimages\superior\otros\oth1.png" alt="ADIRS" style="width:100%">
+      <h4>Sistemas inerciales</h4>
+      <p>Desde este panel se habilitarán y conectarán los giroscopios y sistemas de navegación que permiten al avión posicionarse en un punto en el mapa e indicársela al piloto para mantenerle orientado en su ruta.</p>
+    </div>
+  </div>
+  <div class="cabcolumn oth">
+    <div class="contentcab">
+    <img src="aimages\superior\otros\oth2.png" alt="antice" style="width:100%">
+      <h4>Anti hielo</h4>
+      <p>Desde este panel podemos activar todos los sistemas de hielo tanto en tierra como desde el aire para evitar problemas de congelación en los motores y en las alas que puede afectar negativamente en el rendimiento del avión.</p>
+    </div>
+  </div>
+  <div class="cabcolumn oth">
+    <div class="contentcab">
+    <img src="aimages\superior\otros\oth3.png" alt="GPWS" style="width:100%">
+      <h4>GPWS</h4>
+      <p>Este es el sistema de seguridad más característico de Airbus, se encarga de corregir errores graves de un piloto o controlar la aeronave si el piloto ha sufrido algún tipo de incapacidad.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("cabcolumn");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "cabshow");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "cabshow");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btncab");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+<br><br><br><br>
+<footer>
+<div class="footer">
+  <ul>
+    
+    <small><a href="legal.html">Aviso legal</a></li></small>
+    <small><a href="privacidad.html">Privacidad</a></li></small>
+    <small><a href="contacta.html">Contactar</a></li></small>
+  </ul>
+</footer> 
+</div>
+</body>
+</html>

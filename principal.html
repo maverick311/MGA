@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Panel principal</title>
+     <link rel="shortcut icon" href="images\pestana.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-16">
+    <meta name="description" content="Aviación">
+    <meta name="keywords" content="HTML, CSS, PHP">
+    <meta name="author" content="Javier Masó">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Commercial Aircraft,A320neo,Searchable,Newsroom">
+  <link rel="STYLESHEET" href="estilos.css">
+        
+           <img src="images/logoMGA1.3.png" alt="Logo página" height="125” width="300”>
+        
+</head>
+<body class="cab">
+ <br><br><br>
+  <div class="centrado">
+              
+        <a href="index.html"><i><img class="bar" src="images/home.png"></i></a> 
+        
+        <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn" class="bar">El A320</button>
+        <div class="dropdown-content">
+        <a href="histoairbus.html">Historia A320N</a>
+        <a href="caracteristicas.html">Características</a>
+        <a href="neo.html"> New Engine Option</a>
+      </div>
+      </div>
+
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">La Cabina</button>
+      <div class="dropdown-content">
+        <a href="cabina.html">El cockpit</a>
+        <a href="pasajeros.html">Cabina de pasajeros</a>
+      </div>
+      </div>
+      
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">Más</button>
+      <div class="dropdown-content">
+      <a href="lasfotos.html">Imágenes</a>
+      <a href="descargas.html">Descargas</a>
+      <a href="document.html">Documentación A320</a>
+        </div>
+        </div>
+        <button class="btn botred"><a href="contacta.php">Contacta con nosotros</a></button>
+      </div>
+  <div class="maincab">
+<br><br>
+<h2 class="cab">PANEL PRINCIPAL</h2>
+
+<div id="myBtnContainer">
+  <button class="btncab active" onclick="filterSelection('all')"> Mostrar todo</button>
+  <button class="btncab" onclick="filterSelection('ap')"> Piloto automático</button> 
+  <button class="btncab" onclick="filterSelection('displays')"> Displays</button>
+  <button class="btncab" onclick="filterSelection('oth')"> Otros</button>
+  <button class="btncab"><a href="cabina.html" style="color:black;">Volver</a></button>
+</div>
+
+<!-- Galería portfolio -->
+
+<div class="cabrow">
+  <div class="cabcolumn ap">
+    <div class="contentcab">
+      <img src="aimages\principal\ap\ap1.png" alt="PElect" style="width:100%">
+      <h4>Navegación</h4>
+      <p>Con estos switches el piloto controlara la velocidad de la aeronave y el rumbo magnético al que esta debe dirigirse.</p>
+    </div>
+  </div>
+  <div class="cabcolumn ap">
+    <div class="contentcab">
+    <img src="aimages\principal\ap\ap2.png" alt="PElect" style="width:100%">
+      <h4>Altitud y Vertical Speed</h4>
+      <p>Desde estos controles se podrá especificar la altitud y la velocidad vertical a la que el avión deberá ascender o descender hasta la altitud indicada.</p>
+    </div>
+  </div>
+  <div class="cabcolumn ap">
+    <div class="contentcab">
+    <img src="aimages\principal\ap\apd.png" alt="PElect" style="width:100%">
+      <h4>Control del display</h4>
+      <p>Con estos botones y switches, se podrá seleccionar la información que queremos ver en las pantallas, además de especificar la configuración del altímetro.</p>
+    </div>
+  </div>
+  
+  <div class="cabcolumn displays">
+    <div class="contentcab">
+      <img src="aimages\principal\displays\ecam.png" alt="ecam" style="width:100%">
+      <h4>ECAM</h4>
+      <p>Desde estas pantallas el piloto visualizará la información que necesite para operar el vuelo de forma segura, esta información el piloto la selecciona desde el panel pedestrial, explicado en su correspondiente sección.<small><a href="pedestrial" style="color:black">Pulsa aquí</a></small></p>
+    </div>
+  </div>
+  <div class="cabcolumn displays">
+    <div class="contentcab">
+    <img src="aimages\principal\displays\horiz.png" alt="horizonte" style="width:100%">
+      <h4>Horizonte artificial</h4>
+      <p>Es uno de los elementos más importantes del avión, puesto que desde aquí se puede ver la inclinación, la orientación, la velocidad, y otros elementos muy importantes que supera una posible desorientacion del piloto.</p>
+    </div>
+  </div>
+  <div class="cabcolumn displays">
+    <div class="contentcab">
+    <img src="aimages\principal\displays\nd.png" alt="ND" style="width:100%">
+      <h4>ND o Navigatgion Display</h4>
+      <p>Desde aquí el piloto puede comprobar el rumbo que lleva, los aviones que tiene alrededor, la meteorología que le rodea además de todos los puntos por los que debe ir pasando para llegar a su destino, el rumbo que debe serguir lo marca una linea rosa.</p>
+    </div>
+  </div>
+
+  <div class="cabcolumn oth">
+    <div class="contentcab">
+      <img src="aimages\principal\oth\oth1.png" alt="lights" style="width:100%">
+      <h4>Luces de los displays</h4>
+      <p>Desde este panel controlaremos el encendido y la luminoidad de los displays del ND y del ECAM además del volumen de los altavoces desde el que se oye las instrucciones del ATC</p>
+    </div>
+  </div>
+  <div class="cabcolumn oth">
+    <div class="contentcab">
+    <img src="aimages\principal\oth\oth2.png" alt="Horizonte2" style="width:100%">
+      <h4>Horizonte artificial alternativo</h4>
+      <p>Este display solo ofrece información de la inclinación del avión, este se usa en caso de que los otros fallen y poder mantener un correcto control del avión.</p>
+    </div>
+  </div>
+  <div class="cabcolumn oth">
+    <div class="contentcab">
+    <img src="aimages\principal\oth\oth3.png" alt="gear" style="width:100%">
+      <h4>Tren aterrizaje y autobreak</h4>
+      <p>Desde aquí se puede subir y bajar el tren de aterrizaje y además configurar los frenos (aerofrenos únicamente) que se activarán de forma automático en caso necesario.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("cabcolumn");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "cabshow");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "cabshow");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btncab");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+<br><br><br><br>
+<footer>
+<div class="footer">
+  <ul>
+    <small><a href="legal.html">Aviso legal</a></li></small>
+    <small><a href="privacidad.html">Privacidad</a></li></small>
+    <small><a href="contacta.html">Contactar</a></li></small>
+  </ul>
+</footer> 
+</div>
+</body>
+</html>

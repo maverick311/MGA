@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Descargas</title>
+    <link rel="shortcut icon" href="images\pestana.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-16">
+    <meta name="description" content="Aviación">
+    <meta name="author" content="Javier Masó">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Commercial Aircraft,A320neo,Searchable,Newsroom">
+    <link rel="STYLESHEET" href="estilos.css">
+    <img src="images/logoMGA1.3.png" alt="Logo página" height="125” width="250”>
+        
+</head>
+<body class="cab">
+ <br><br><br>
+  <div class="centrado">
+              
+        <a href="index.html"><i><img class="bar" src="images/home.png"></i></a> 
+        
+        <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn" class="bar">El A320</button>
+        <div class="dropdown-content">
+        <a href="histoairbus.html">Historia A320N</a>
+        <a href="caracteristicas.html">Características</a>
+        <a href="neo.html"> New Engine Option</a>
+      </div>
+      </div>
+
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">La Cabina</button>
+      <div class="dropdown-content">
+        <a href="cabina.html">El cockpit</a>
+        <a href="pasajeros.html">Cabina de pasajeros</a>
+      </div>
+      </div>
+      
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">Más</button>
+      <div class="dropdown-content">
+      <a href="lasfotos.html">Imágenes</a>
+      <a href="descargas.html">Descargas</a>
+      <a href="document.html">Documentación A320</a>
+        </div>
+        </div>
+        <button class="btn botred"><a href="contacta.php">Contacta con nosotros</a></button>
+      </div>
+<!-- Centra los elementos en la pagina -->
+<div class="maincab">
+
+<h1>DESCARGAS</h1>
+<hr>
+
+
+<!-- Contenido -->
+<div class="rowpasaj">
+  <div class="columnpasaj">
+    <div class="contentpasaj">
+      <img src="aimages\descargas\conoc.jpg" alt="asientos" style="width:100%">
+      <h3>Conocimientos Aeronaúticos</h3>
+      <p>Si quieres volar un avión como del que hablamos en esta página es imprescindible tener conocimientos aeronaúticos, este documento puede ser un ejemplo.</p><a href="documentos\conocimintosaero.pdf"><button class="btndw"><i class="fa fa-download"></i> Download</button></a>
+    </div>
+  </div>
+  <div class="columnpasaj">
+    <div class="contentpasaj">
+    <img src="aimages\descargas\meteo.jpg" alt="asientos" style="width:100%">
+      <h3>Meteorología</h3>
+      <p>Los pilotos que navegan a 10.000m de altura tienen un gran conocimiento sobre meteorología para poder tomar las mejores decisiones para el avión y la comodidad de sus pasajeros.</p><a href="documentos\meteo.pdf"><button class="btndw"><i class="fa fa-download"></i> Download</button></a>
+    </div>
+  </div>
+  <div class="columnpasaj">
+    <div class="contentpasaj">
+   <img src="aimages\descargas\radio.jpg" alt="asientos" style="width:100%">
+      <h3>La radio</h3>
+      <p>Las comunicaciones y la radionavegación es un elemento importante a bordo de un avión, pero esto obliga a los pilotos a tener unos amplios conocimientos sobre estos elementos que les mantienen orientados.</p><a href="documentos\radio.pdf"><button class="btndw"><i class="fa fa-download"></i> Download</button></a>
+    </div>
+  </div>
+  <div class="columnpasaj">
+    <div class="contentpasaj">
+    <img src="aimages\descargas\psico.jpg" alt="asientos" style="width:100%">
+      <h3>Psicología</h3>
+      <p>Aunque demos por sentado la buena salud mental de la persona encargada de tu vida en el aire, los pilotos deben someterse a examenes mentales que garanticen que vayan a volar con seguridad el avión.</p><a href="documentos\psico.pdf"><button class="btndw"><i class="fa fa-download"></i> Download</button></a>
+    </div>
+  </div>
+</div>
+<br>
+<h2>Estas descargas</h2>
+<p>En estos documentos podrás encontrar una parte de todos los conocimientos generales que tienen que tener los pilotos para poder trasladar tanto pasajeros como mercancías de manera segura a través del mundo.
+<img id="myImg" src="images\logoMGA1.3.png" alt="Me Gusta la Aviación" class="dcha">Si quieres acercarte un poco más a este fascinante mundo de la aviación, es una lectura que no te puedes perder. <FONT COLOR="red">(pincha en la imagen.)</FONT>.</p><p> Si tienes alguna sugerencia de documentos que quieras leer, o de lo que sea, no dudes en ponerte en contacto con nosotros, que valoraremos tus sugerencias de forma positiva.<br>
+<a href="pasajeros.html"><img src="images\volver.png" class="vlv"></a></p>
+<div id="myModal" class="modalpasaj">
+  <span class="closepasaj">&times;</span>
+  <img class="modalpasaj-content" id="img01">
+  <div id="captionpasaj"></div>
+</div>
+</p>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("captionpasaj");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closepasaj")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+</body>
+<footer>
+<div class="footer">
+  <ul>
+    <small><a href="legal.html">Aviso legal</a></li></small>
+    <small><a href="privacidad.html">Privacidad</a></li></small>
+    <small><a href="contacta.php">Contactar</a></li></small>
+  </ul>
+</footer> 
+</div>
+</html>

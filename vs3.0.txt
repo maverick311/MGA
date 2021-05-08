@@ -1,0 +1,7 @@
+cambio del apartado contacta, ya funciona con php con el problema
+que no recoge todas las variables 'header' (noreply@megustalaaviacion.es)
+
+se añade carrusel de imagenes en la cabina
+añadimos imagenes de fondo
+modificamos seccion legal
+mejora seccion el motor

@@ -1,0 +1,768 @@
+/* #00117F azul oscuro*/
+* {
+  box-sizing: border-box;
+}
+P  {
+ font-size : 12pt;
+ font-family : Comic Sans MS;
+ font-weight : normal;
+ text-align : justify;
+}
+P2  {
+ font-size : 12pt;
+ font-family : Comic Sans MS;
+ font-weight : normal;
+ text-align : justify;
+ color : red;
+}
+footer {
+font-size : 8pt;
+}
+a {
+	text-decoration: none;
+  color: #FFFFFF
+  
+	}
+.cont {
+  color: blue;
+  }  
+
+caption{
+	font-weight: 500;
+	font-size: large;
+	font-family: cursive;
+	color: #1A49CB;
+}
+table, th, td {
+  border: 0px solid black;
+  border-collapse: collapse;
+  
+}
+
+
+th.par{
+	background:#F0FCFC; 
+	text-align: left;
+}
+td.parr{
+	background:#F0FCFC; 
+}
+th.t{
+	text-align: left;
+}
+h2{
+	color: #1A49CB;
+}
+h2.leg{
+  color: red;
+}
+h2.cab{
+  color: black;
+}
+img.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+img.izqdaP{
+  float: left;
+  width: 50px; height: 50px;
+}
+img.izqdaMG{
+  float: left;
+  width: 220px; height: 160px;
+}
+img.izqdaG{
+  float: left;
+  width:200px; height: 140px;
+  padding: .7em;
+}
+img.dcha{
+  float: right;
+  width: 140px; height: 140px;
+  padding: .7em;
+}
+img.cabina{
+	vertical-align: middle;
+}
+img.vlv{
+  float: center;
+  width: 85px; height: 85px;
+  padding: .7em;
+  overflow:hidden;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+
+.header {
+  background-color: #f1f1f1;
+  color: blue;
+  padding: 15px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #00117F;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+.aside {
+  background-color: rgba(0,0,0,0.10);
+  padding: 15px;
+  color: #00117F;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #00117F; /*color fondo footer*/
+  color: #ffffff;
+  text-align: right;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.btn{
+  border:none;
+  color: white;
+  padding: 5px 12px;
+  font-size:15px;
+  cursor: pointer;
+  background: #00117F; /*fondo contacta*/
+}
+.botblue
+   {background-color: #00117F;/*color fondo opciones del menu*/ /* Blue */
+
+    } 
+
+.botblue:hover 
+  {
+    background: #0b7dda; /* color al pasar el raton por el menu*/ 
+
+  }
+  .botred:hover 
+  {
+    background: red;
+    
+  }
+
+
+.centrado{
+  margin-left: auto;%;
+  margin-right: auto%;
+  text-align: center;
+  background: #00117F; /*color fondo barra menu*/
+}
+.pcentrada{
+	text-align:center;
+	border:0px dotted #000; 
+	padding:2px;
+	font-family: Bahnschrift Condensed;	
+	font-size: 18px;
+}
+.divP{
+	width:60%;
+	border:0px dotted #f00;
+	padding:2px;
+	margin:auto;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+ 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0b7dda; /*Cambiar color menu desplegado*/ 
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ 
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown-content a:hover {background-color: #30D6FF;} /* Cambiar color al pasar el raton */
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+img.bar{
+    vertical-align: middle;
+    margin-bottom: .2em;
+    width: 20px;
+    height: 20PX;
+
+   }
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+/*CONTACTA*/
+ select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/*FOTOS CABINA*/
+body.cab {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Cuerpo fotos cabina */
+.maincab {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1.cab {
+  font-size: 50px;
+  word-break: break-all;
+
+}
+
+.cabrow {
+  margin: 15px -21px;
+}
+
+/* Añadir padding entre columnas */
+.cabrow,
+.cabrow > .cabcolumn {
+  padding: 5px;
+}
+
+/* crear tres columnas iguales alineadas entre y con espacion entre ellas */
+.cabcolumn {
+  float: left;
+  width: 33.33%;
+  display: none; /* Ocultar todos los elementos por defecto */
+}
+
+/* Quitar espacios entre filas */ 
+.cabrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.contentcab {
+  background-color: white;
+  padding: 10px;
+}
+
+/* La clase "cabshow"es añadida a otros elementos */
+.cabshow {
+  display: block;
+}
+
+/* Estilo de los botones */
+.btncab {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btncab:hover {
+  background-color: #ddd;
+}
+
+.btncab.active {
+  background-color: #666;
+  color: white;
+}
+
+/*FOTOS CABINA CARRUSEL*/
+img.cabina {
+  vertical-align: middle;
+  display: block;
+  margin: auto;
+}
+
+/*Posicion de la imagen en la zona principal*/
+.containercab {
+  position: relative;
+}
+
+/* Ocultar imagen por defecto */
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Botones siguiente anterior */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* posicion boton siguiente */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* fondo oscuro */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Posicion de las imagenes */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Contenedor del titulo de la foto */
+
+.fotorow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* columnas lado a lado */
+.columnfoto {
+  float: left;
+  width: 16.66%;
+}
+
+/* Trasnparencia de las imagenes no activas */
+.demo {
+  opacity: 0,5;
+}
+
+.ftactive,
+.demo:hover {
+  opacity: 1;
+}
+/*FOTOS CABINA CARRUSEL*/
+img.cabina {
+  vertical-align: middle;
+  display: block;
+  margin: auto;
+}
+
+/* Posicion del contenedor de imagenes necesarias las flechas de posicion de los lados */
+.containercab {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 6px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Contenedor imagen texto*/
+.capation-containers {
+  text-align: center;
+  background-color: white;
+  padding: 1px 400px;
+  color: white;
+}
+
+.fotorow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.columnfoto {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.arrowoff{
+    cursor: default;
+}
+/*ESTILOS PAGINA ASIENTOS ILUMINACION OCIO*/
+.bodypasaj{
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+.mainpasaj{
+  max-width: 1000px;
+  margin: auto;
+}
+h1.pasaj{
+  font-size: 50px;
+  word-break: break-all;
+}
+h1.doc{
+  color: #00117F;
+}
+.rowpasaj {
+  margin: 8px -16px;
+}
+.rowpasaj,
+/* Add padding BETWEEN each column */
+.rowpasaj > .columnpasaj {
+  padding: 8px;
+}
+/* Create four equal columns that floats next to each other */
+.columnpasaj {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.rowpasaj:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.contentpasaj {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .columnpasaj {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnpasaj {
+    width: 100%;
+  }
+}
+/*IMAGEN MODAL EN ASIENTOS*/
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modalpasaj {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modalpasaj-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#captionpasaj {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modalpasaj-content, #captionpasaj {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.closepasaj {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.closepasaj:hover,
+.closepasaj:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modalpasaj-content {
+    width: 100%;
+  }
+}
+/*COLLAGE FOTOS*/
+body .fot {
+  margin: 0;
+  font-family: Arial;
+}
+
+.headerfot {
+  text-align: center;
+  padding: 32px;
+}
+
+.rowfot {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/*Crea4 columnas iguales */
+.columnfot {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.columnfot img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* responsive*/
+@media screen and (max-width: 800px) {
+  .columnfot {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .columnfot {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*BOTON DOWNLOAD*/
+.btndw {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btndw:hover {
+  background-color: RoyalBlue;
+}

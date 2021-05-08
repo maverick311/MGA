@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Iluminación</title>
+   <link rel="shortcut icon" href="images\pestana.ico" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-16">
+    <meta name="description" content="Aviación">
+    <meta name="author" content="Javier Masó">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Commercial Aircraft,A320neo,Searchable,Newsroom">
+  <link rel="STYLESHEET" href="estilos.css">
+        
+           <img src="images/logoMGA1.3.png" alt="Logo página" height="125” width="300”>
+        
+</head>
+<body class="cab">
+ <br><br><br>
+  <div class="centrado">
+              
+        <a href="index.html"><i><img class="bar" src="images/home.png"></i></a> 
+        
+        <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn" class="bar">El A320</button>
+        <div class="dropdown-content">
+        <a href="histoairbus.html">Historia A320N</a>
+        <a href="caracteristicas.html">Características</a>
+        <a href="neo.html"> New Engine Option</a>
+      </div>
+      </div>
+
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">La Cabina</button>
+      <div class="dropdown-content">
+        <a href="cabina.html">El cockpit</a>
+        <a href="pasajeros.html">Cabina de pasajeros</a>
+      </div>
+      </div>
+      
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">Más</button>
+      <div class="dropdown-content">
+      <a href="lasfotos.html">Imágenes</a>
+      <a href="descargas.html">Descargas</a>
+      <a href="document.html">Documentación A320</a>
+        </div>
+        </div>
+        <button class="btn botred"><a href="contacta.php">Contacta con nosotros</a></button>
+      </div>
+<!-- Centra los elementos en la página -->
+<div class="maincab">
+
+<h1>Iluminación y seguridad</h1>
+<hr>
+
+
+<!-- Contenido -->
+<div class="rowpasaj">
+  <div class="columnpasaj">
+    <div class="contentpasaj">
+      <img src="aimages\iluminacion\leds.jpg" alt="asientos" style="width:100%">
+      <h3>Luces</h3>
+      <p>Actualmente los sistemas del avión consumen una gran cantidad de energía por lo que el uso de bombillas Leds cobran una especial importancia para la eficiencia energética y la mejor experiencia de vuelo dando también más opciones de personalizacion.
+
+
+      </p>
+    </div>
+  </div>
+  <div class="columnpasaj">
+    <div class="contentpasaj">
+    <img src="aimages\iluminacion\ventanas.jpg" alt="ocio" style="width:100%">
+      <h3>Las ventanas</h3>
+      <p>Con nuevos tonos de ventana totalmente integrados que proporcionan a los pasajeros más espacio en las ventanas y una vista sin obstrucciones. Además las puertas se encuentran arminizadas en el ambiente, lo que supone una menor incomodidad para los pasajeros que se sientan junto a la puerta.</p>
+    </div>
+  </div>
+  <div class="columnpasaj">
+    <div class="contentpasaj">
+    <img src="aimages\iluminacion\airspace.jpg" alt="Pasillo" style="width:100%">
+      <h3>AirSpace</h3>
+      <p>Aprovechando 16.4 millones de opciones de color, la nueva iluminación ambiental en cabina crea una experiencia personalizada en vuelo a lo largo de la cabina a 30,000 pies de altura. Mejorando la experiencia de vuelo para todos los pasajeros, incluso a los más miedosos.</p>
+    </div>
+  </div>
+  <div class="columnpasaj">
+    <div class="contentpasaj">
+    <img src="aimages\iluminacion\virus.jpg" alt="Space-Flex" style="width:100%">
+      <h3>Diseño sanitario</h3>
+      <p>Recubrimientos antibacteriales en las superficies de la aeronave, dispensador automático de aromas, sonido y opciones sin contacto para que los vuelos sean aún más seguros.
+      </p>
+    </div>
+  </div>
+</div>
+<br>
+<h2>AirSpace</h2>
+<p>La cromoterapia es una técnica utilizada en la llamada medicina alternativa o naturopatía, en la que se utiliza la visualización de los colores en que se divide el espectro de la luz solar, para influir en la mejora del estado anímico y de bienestar de las personas.</p>
+<img id="myImg" src="aimages\iluminacion\AS.jpg" alt="AirSpace" class="izqdaG"><p>Con esta idea, Airbus ha integrado el sistema denominado Airspace <FONT COLOR="red">(pincha en la imagen para ampliar)</FONT> que consiste en  una experiencia luminaria a bordo totalmente personalizada, que se inicia en la entrada con un ambiente acogedor y continúa en todo el avión con algunas variables. Pudiendo adaptar elementos como el tono, el color, la intensidad...en función de las necesidades de los pasajeros en cada etapa del vuelo, siguiendo con la normativa vigente respecto a iluminación a bordo. Este sistema permite a los pasajeros porder volar de una manera más comfortable y olvidar que están en el aire y disfrutar del vuelo.<br><br>
+<a href="pasajeros.html"><img src="images\volver.png" class="vlv"></a></p>
+<div id="myModal" class="modalpasaj">
+  <span class="closepasaj">&times;</span>
+  <img class="modalpasaj-content" id="img01">
+  <div id="captionpasaj"></div>
+</div>
+</p>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("captionpasaj");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closepasaj")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+<footer>
+<div class="footer">
+  <ul>
+    <small><a href="legal.html">Aviso legal</a></li></small>
+    <small><a href="privacidad.html">Privacidad</a></li></small>
+    <small><a href="contacta.php">Contactar</a></li></small>
+  </ul>
+</footer> 
+</div>
+</body>
+</html>

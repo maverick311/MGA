@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Asientos</title>
+    <link rel="shortcut icon" href="images\pestana.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-16">
+    <meta name="description" content="Aviación">
+    <meta name="author" content="Javier Masó">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Commercial Aircraft,A320neo,Searchable,Newsroom">
+    <link rel="STYLESHEET" href="estilos.css">
+    <img src="images/logoMGA1.3.png" alt="Logo página" height="125” width="250”>
+        
+</head>
+<body class="cab">
+ <br><br><br>
+  <div class="centrado">
+              
+        <a href="index.html"><i><img class="bar" src="images/home.png"></i></a> 
+        
+        <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn" class="bar">El A320</button>
+        <div class="dropdown-content">
+        <a href="histoairbus.html">Historia A320N</a>
+        <a href="caracteristicas.html">Características</a>
+        <a href="neo.html"> New Engine Option</a>
+      </div>
+      </div>
+
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">La Cabina</button>
+      <div class="dropdown-content">
+        <a href="cabina.html">El cockpit</a>
+        <a href="pasajeros.html">Cabina de pasajeros</a>
+      </div>
+      </div>
+      
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">Más</button>
+      <div class="dropdown-content">
+      <a href="lasfotos.html">Imágenes</a>
+      <a href="descargas.html">Descargas</a>
+      <a href="document.html">Documentación A320</a>
+        </div>
+        </div>
+        <button class="btn botred"><a href="contacta.php">Contacta con nosotros</a></button>
+      </div>
+<!-- Centra los elementos en la pagina -->
+<div class="maincab">
+
+<h1>Asientos del A320N</h1>
+<hr>
+
+
+<!-- Contenido -->
+<div class="rowpasaj">
+  <div class="columnpasaj">
+    <div class="contentpasaj">
+      <img src="aimages\asientos\asientos.jpg" alt="asientos" style="width:100%">
+      <h3>Asientos</h3>
+      <p>Asientos más cómodos que se adaptan a la comodidad que necesitan los pasajeros para afrontar la mayor autonomía que estos aviones ofrecen.</p>
+    </div>
+  </div>
+  <div class="columnpasaj">
+    <div class="contentpasaj">
+    <img src="aimages\asientos\pantalla.jpg" alt="ocio" style="width:100%">
+      <h3>Ocio</h3>
+      <p>Aviones equipados con nuevos sistemas electrónicos que facilita la instalacion de sistemas de ocio más avanzados, pantallas táctiles...</p>
+    </div>
+  </div>
+  <div class="columnpasaj">
+    <div class="contentpasaj">
+    <img src="aimages\asientos\pasillo.jpg" alt="Pasillo" style="width:100%">
+      <h3>El pasillo</h3>
+      <p>El más ancho de cualquier avión de cabina estrecha, mejora la experiencia de todos aquellos a los que no les gusta los espacios cerrados.</p>
+    </div>
+  </div>
+  <div class="columnpasaj">
+    <div class="contentpasaj">
+    <img src="aimages\asientos\spaceflexas.jpg" alt="Space-Flex" style="width:100%">
+      <h3>Space-Flex</h3>
+      <p>Ahora, las aerolineas tendrán la opción de usar este sistema con el que sus viajeros de movilidad reducida podrán acceder a los baños, quitando asientos o reduciento el espacio para las piernas.</p>
+    </div>
+  </div>
+</div>
+<br>
+<h2>Cabina de pasajeros</h2>
+<p>Cuenta con una capacidad media de 240 pasajeros, y tiene el pasillo más ancho del mercado entre los de fuselaje estrecho.
+
+<img id="myImg" src="aimages\asientos\spaceflex.jpg" alt="Spaceflex" class="dcha">Además Airbus ha desarrollado la tecnología Space-Flex,la solución que permite hacer un baño para personas con movilidad reducida reduciendo el espacio ocupado por el galley trasero y de paso ganando una fila más de asientos donde antes estaban los dos baños traseros <FONT COLOR="red">(pincha en la imagen para ver la diferencia)</FONT>.</p><p> La pega que tiene esta nueva "ventaja" es que, o la aerolinea quita asientos y/o reduce el espacio para las piernas de los pasajeros o no puede instalar este sistema, por lo que no todas las aerolineas están adoptando esta nueva configuración.<br>
+<a href="pasajeros.html"><img src="images\volver.png" class="vlv"></a></p>
+<div id="myModal" class="modalpasaj">
+  <span class="closepasaj">&times;</span>
+  <img class="modalpasaj-content" id="img01">
+  <div id="captionpasaj"></div>
+</div>
+</p>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("captionpasaj");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closepasaj")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+</body>
+<footer>
+<div class="footer">
+  <ul>
+    <small><a href="legal.html">Aviso legal</a></li></small>
+    <small><a href="privacidad.html">Privacidad</a></li></small>
+    <small><a href="contacta.php">Contactar</a></li></small>
+  </ul>
+</footer> 
+</div>
+</html>

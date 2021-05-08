@@ -1,0 +1,157 @@
+
+
+<!DOCTYPE html>
+<HTML LANG="SP">
+<head>
+	  <meta charset="UTF-16">
+ 	  <meta name="description" content="Aviación">
+  	  <meta name="author" content="Javier Masó">
+  	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	  <meta name="keywords" content="Commercial Aircraft,A320neo,Searchable,Newsroom">
+			<link rel="STYLESHEET" href="estilos.css">
+	<title>Fotos cockpit</title>
+ 	<a title="a320" href="index.html"><img src="images/logoMGA1.3.png" alt="Logo página" height=125” width=300”></a>
+ 		
+</head>
+	<body>
+
+       <div class="centrado">
+              
+        <a href="index.html"><i><img class="bar" src="images/home.png"></i></a> 
+        
+        <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn" class="bar">El A320</button>
+        <div class="dropdown-content">
+        <a href="histoairbus.html">Historia A320N</a>
+        <a href="caracteristicas.html">Características</a>
+        <a href="neo.html"> New Engine Option</a>
+      </div>
+      </div>
+
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">La Cabina</button>
+      <div class="dropdown-content">
+        <a href="cabina.html">El cockpit</a>
+        <a href="pasajeros.html">Cabina de pasajeros</a>
+      </div>
+      </div>
+      
+      <div class="dropdown">
+      <button class="btn blue botblue" class="dropbtn">Más</button>
+      <div class="dropdown-content">
+      <a href="lasfotos.html">Imágenes</a>
+      <a href="descargas.html">Descargas</a>
+      <a href="document.html">Documentación A320</a>
+        </div>
+        </div>
+        <button class="btn botred"><a href="contacta.php">Contacta con nosotros</a></button>
+      </div>
+<br>
+
+
+<h2 style="text-align:center">Fotos de la cabina</h2>
+
+<div class="containercab">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img class="cabina" src="aimages\iluminacion\airspace.jpg" style="width:55%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img class="cabina" src="aimages\iluminacion\AS.jpg" style="width:55%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img class="cabina"src="aimages\iluminacion\leds.jpg" style="width:55%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img class="cabina"src="aimages\iluminacion\ventanas.jpg" style="width:55%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img class="cabina" src="aimages\iluminacion\asiento.jpg" style="width:55%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img class="cabina" src="aimages\asientos\spaceflexas.jpg" style="width:55%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="capation-containers">
+    <p id="caption"></p>
+  </div>
+
+  <div class="fotorow">
+    <div class="columnfoto">
+      <img class="cabina demo cursor " src="aimages\iluminacion\airspace.jpg" style="width:80%" onclick="currentSlide(1)" alt="Airspace">
+    </div>
+    <div class="columnfoto">
+      <img class="cabina demo cursor" src="aimages\iluminacion\AS.jpg" style="width:80%" onclick="currentSlide(2)" alt="Airspace">
+    </div>
+    <div class="columnfoto">
+      <img class="cabina demo cursor " src="aimages\iluminacion\leds.jpg" style="width:80%" onclick="currentSlide(3)" alt="Ocio a bordo">
+    </div>
+    <div class="columnfoto">
+      <img class="cabina demo cursor" src="aimages\iluminacion\ventanas.jpg" style="width:80%" onclick="currentSlide(4)" alt="Ventanas">
+    </div>
+    <div class="columnfoto">
+      <img class="cabina demo cursor" src="aimages\iluminacion\asiento.jpg" style="width:80%" onclick="currentSlide(5)" alt="Pasillo espacioso">
+    </div>    
+    <div class="columnfoto">
+      <img class="cabina demo cursor" src="aimages\asientos\spaceflexas.jpg" style="width:80%" onclick="currentSlide(6)" alt="Spaceflex">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+<a href="pasajeros.html"><img src="images\volver.png" class="vlv"></a></p>    
+
+<br><br>
+<footer>
+<div class="footer">
+  <ul>
+    <small><a href="legal.html">Aviso legal</a></li></small>
+    <small><a href="privacidad.html">Privacidad</a></li></small>
+    <small><a href="contacta.php">Contactar</a></li></small>
+  </ul>
+</footer> 
+</div>
+</body>
+</html>
